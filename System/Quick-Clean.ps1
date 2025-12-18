@@ -1,4 +1,4 @@
-﻿# Clear-Temp.ps1 (v0.1) - A very basic option.
+﻿# Quick-Clean.ps1 (v0.1) - A very basic option.
 Write-Host "The script for cleaning temporary files is running." -ForegroundColor Green
 
 # 1. Defining the target folder
@@ -18,3 +18,4 @@ if ($userAnswer -eq 'Yes') {
 }  else {
     Write-Host "The operation was canceled by the user." -ForegroundColor Red
 }
+
