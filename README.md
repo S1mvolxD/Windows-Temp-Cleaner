@@ -74,7 +74,7 @@ irm https://raw.githubusercontent.com/S1mvolxD/Windows-Temp-Cleaner/refs/heads/m
 
 <details>
 
-<summary>Clear-RecycleBin.ps1 - Emptying the trash</summary>
+<summary>4. Clear-RecycleBin.ps1 - Emptying the trash</summary>
 
 ## What cleanses:
 ```ps1
@@ -86,6 +86,21 @@ irm https://raw.githubusercontent.com/S1mvolxD/Windows-Temp-Cleaner/refs/heads/m
 
 > [!IMPORTANT]
 > Attention: The removal is irreversible!
+
+<details>
+
+<summary>5. Clear-WindowsTemp.ps1 - Clearing Windows Temp</summary>
+
+## What cleanses:
+```ps1
+• C:\Windows\Temp\
+• Saves a backup copy of important files
+```
+
+</details>
+
+> [!NOTE]
+> Creates a backup in %TEMP%\WindowsTempBackup.
 
 # 📊 Script Comparison
 ```mermaid
