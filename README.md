@@ -52,3 +52,8 @@ irm https://raw.githubusercontent.com/S1mvolxD/PowerShell-Scripts/refs/heads/mai
 
 > [!WARNING]
 > Urgent info that needs immediate user attention to avoid problems.
+
+# 📞 Support
+Did you find a bug? Do you have any suggestions? Create an Issue
+
+Attention: These scripts are provided "as is". The author is not responsible for possible problems. Always create backups of important data before performing any cleanup operations.
