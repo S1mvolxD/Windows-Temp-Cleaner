@@ -16,3 +16,6 @@ A set of standalone PowerShell scripts for safely cleaning temporary files in Wi
 | [Clear-SystemTemp.ps1](https://github.com/S1mvolxD/PowerShell-Scripts/blob/main/System/Clear-SystemTemp.ps1) | Cleaning system temporary files | ✅ | ⭐⭐|
 | [Clear-RecycleBin.ps1](https://github.com/S1mvolxD/PowerShell-Scripts/blob/main/System/Clear-RecycleBin.ps1) | Emptying the trash | ❌ | ⭐⭐⭐|
 | [Clean-Menu.ps1](https://github.com/S1mvolxD/PowerShell-Scripts/blob/main/System/Clean-Menu.ps1) | Script with a menu | ✅/❌ | ⭐⭐⭐⭐|
+
+# 🚀 Quick start
+> 📥 Installation
