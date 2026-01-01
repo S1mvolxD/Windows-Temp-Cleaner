@@ -17,17 +17,17 @@ do {
     switch ($choice) {
         "1" {
             Write-Host "`nStarting the cleaning of the user's temporary files..." -ForegroundColor Green
-            irm https://raw.githubusercontent.com/S1mvolxD/PowerShell-Scripts/refs/heads/main/System/Clear-UserTemp.ps1 | iex
+            irm https://raw.githubusercontent.com/S1mvolxD/Windows-Temp-Cleaner/refs/heads/main/Clear-UserTemp.ps1 | iex
             Pause
         }
         "2" {
             Write-Host "`nStarting the cleaning of system temporary files..." -ForegroundColor Green
-            irm https://raw.githubusercontent.com/S1mvolxD/PowerShell-Scripts/refs/heads/main/System/Clear-SystemTemp.ps1 | iex
+            irm https://raw.githubusercontent.com/S1mvolxD/Windows-Temp-Cleaner/refs/heads/main/Clear-SystemTemp.ps1 | iex
             Pause
         }
         "3" {
             Write-Host "`nStarting the trash cleanup..." -ForegroundColor Green
-            irm https://raw.githubusercontent.com/S1mvolxD/PowerShell-Scripts/refs/heads/main/System/Clear-RecycleBin.ps1 | iex
+            irm https://raw.githubusercontent.com/S1mvolxD/Windows-Temp-Cleaner/refs/heads/main/Clear-RecycleBin.ps1 | iex
             Pause
         }
         "0" {
@@ -40,4 +40,5 @@ do {
         }
     }
 } while ($choice -ne "0")
+
 
