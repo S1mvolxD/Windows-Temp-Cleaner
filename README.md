@@ -31,7 +31,6 @@ irm https://raw.githubusercontent.com/S1mvolxD/Windows-Temp-Cleaner/refs/heads/m
 ```ps1
 • %TEMP% and %LOCALAPPDATA%\Temp
 • Browser cache (Edge, Chrome, Firefox)
-• Recent documents
 ```
 
 </details>
@@ -61,6 +60,7 @@ irm https://raw.githubusercontent.com/S1mvolxD/Windows-Temp-Cleaner/refs/heads/m
 ```
 
 </details>
+
 > [!WARNING]
 > Urgent info that needs immediate user attention to avoid problems.
 
@@ -82,6 +82,12 @@ graph TD
     G --> K[Done!]
     I --> K
 ```
+
+# 🚨 What will NOT be deleted:
+- ✔️ Files in use by systems
+- ✔️ Important system files
+- ✔️ User's documents
+- ✔️
     
 # 📞 Support
 Did you find a bug? Do you have any suggestions? Create an Issue
