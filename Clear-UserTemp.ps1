@@ -44,4 +44,8 @@ Write-Host "Deleted files: $deletedFiles" -ForegroundColor Green
 Write-Host "Seats have been vacated: $sizeInMB MB" -ForegroundColor Green
 
 
+Write-Host "`nClearing the DNS cache..." -ForegroundColor Cyan
+ipconfig /flushdns | Out-Null # Clearing the DNS cache
+Write-Host "DNS cache cleared" -ForegroundColor Green
+
 Write-Host "`n=== Done! ===" -ForegroundColor Cyan
