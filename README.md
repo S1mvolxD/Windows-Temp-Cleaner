@@ -5,17 +5,22 @@ A set of standalone PowerShell scripts for safely cleaning temporary files in Wi
 
 # ✨ Features
 - ✅ Modularity - each script is independent and performs a single task
+- ✅ Security - checks, backups, and error handling
 - ✅ Informative - a detailed report on the implementation
 - ✅ Flexibility - can be used separately or in combination
+- ✅ Automation - ready for the job scheduler
 - ✅ Support - Windows 10/11/Server 2016+
 
 # 📁 List of scripts
 | Script | Description | Admin rights | Danger  |
 | ------ | ----------- | ------------ | ------- |
-| [Clear-UserTemp.ps1](https://github.com/S1mvolxD/PowerShell-Scripts/blob/main/System/Clear-UserTemp.ps1) | Clearing the user's temporary files | ❌ | ⭐|
-| [Clear-SystemTemp.ps1](https://github.com/S1mvolxD/PowerShell-Scripts/blob/main/System/Clear-SystemTemp.ps1) | Cleaning system temporary files | ✅ | ⭐⭐|
-| [Clear-RecycleBin.ps1](https://github.com/S1mvolxD/PowerShell-Scripts/blob/main/System/Clear-RecycleBin.ps1) | Emptying the trash | ❌ | ⭐⭐⭐|
-| [Clean-Menu.ps1](https://github.com/S1mvolxD/PowerShell-Scripts/blob/main/System/Clean-Menu.ps1) | Script with a menu | ✅/❌ | ⭐⭐⭐⭐|
+| [Clear-UserTemp.ps1](https://github.com/S1mvolxD/Windows-Temp-Cleaner/blob/main/Clear-UserTemp.ps1) |	Clearing the user's temporary files |	❌ |	⭐ |
+| [Clear-SystemTemp.ps1](https://github.com/S1mvolxD/Windows-Temp-Cleaner/blob/main/Clear-SystemTemp.ps1) |	Cleaning system temporary files |	✅ |	⭐⭐ |
+| [Clear-Prefetch.ps1](https://github.com/S1mvolxD/Windows-Temp-Cleaner/blob/main/Clear-Prefetch.ps1) |	Clearing the Prefetch folder |	✅ |	⭐⭐⭐ |
+| [Clear-RecycleBin.ps1](https://github.com/S1mvolxD/Windows-Temp-Cleaner/blob/main/Clear-RecycleBin.ps1) |	Emptying the trash |	❌ |	⭐⭐⭐ |
+| [Clear-WindowsTemp.ps1](https://github.com/S1mvolxD/Windows-Temp-Cleaner/blob/main/Clear-WindowsTemp.ps1) |	Cleaning up C:\Windows\Temp |	✅ |	⭐⭐ |
+| [Clear-SoftwareDistribution.ps1](https://github.com/S1mvolxD/Windows-Temp-Cleaner/blob/main/Clear-SoftwareDistribution.ps1) |	Clearing the updates folder |	✅ |	⭐⭐⭐ |
+| [Clear-AllTemp.ps1](https://github.com/S1mvolxD/Windows-Temp-Cleaner/blob/main/Clear-AllTemp.ps1) |	A comprehensive script with a menu |	✅/❌ | ⭐⭐⭐⭐ |
 
 # 🚀 Quick start
 ```ps1
