@@ -10,3 +10,6 @@ A set of standalone PowerShell scripts for safely cleaning temporary files in Wi
 - ✅ Support - Windows 10/11/Server 2016+
 
 # 📁 List of scripts
+| Script | Description | Admin rights | Danger  |
+| ------ | ----------- | ------------ | ------- |
+| [Clear-UserTemp.ps1](https://github.com/S1mvolxD/PowerShell-Scripts/blob/main/System/Clear-UserTemp.ps1) | Clearing the user's temporary files | ❌ | ⭐|
