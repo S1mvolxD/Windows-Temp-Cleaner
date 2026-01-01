@@ -117,7 +117,24 @@ irm https://raw.githubusercontent.com/S1mvolxD/Windows-Temp-Cleaner/refs/heads/m
 
 > [!WARNING]
 > The update service may need to be restarted.
-> 
+
+<details>
+
+<summary>7. Clear-AllTemp.ps1 - A comprehensive script with a menu</summary>
+
+## Interactive menu for selecting actions::
+```ps1
+[1] Cleaning user files
+[2] Cleaning system files
+[3] Prefetch Cleanup
+[4] Cleaning the trash
+[5] Cleaning Windows Temp
+[6] Clearing updates
+[7] ALL TOGETHER (except for the basket)
+```
+
+</details>
+
 # 📊 Script Comparison
 ```mermaid
 graph TD
