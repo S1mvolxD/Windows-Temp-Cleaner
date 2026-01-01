@@ -13,3 +13,4 @@ A set of standalone PowerShell scripts for safely cleaning temporary files in Wi
 | Script | Description | Admin rights | Danger  |
 | ------ | ----------- | ------------ | ------- |
 | [Clear-UserTemp.ps1](https://github.com/S1mvolxD/PowerShell-Scripts/blob/main/System/Clear-UserTemp.ps1) | Clearing the user's temporary files | ❌ | ⭐|
+| [Clear-SystemTemp.ps1](https://github.com/S1mvolxD/PowerShell-Scripts/blob/main/System/Clear-SystemTemp.ps1) | Cleaning system temporary files | ✅ | ⭐⭐|
