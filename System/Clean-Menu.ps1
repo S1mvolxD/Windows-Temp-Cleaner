@@ -23,6 +23,7 @@ do {
             Write-Host "`nStarting the cleaning of system temporary files..." -ForegroundColor Green
             irm https://raw.githubusercontent.com/S1mvolxD/PowerShell-Scripts/refs/heads/main/System/Clear-SystemTemp.ps1 | iex
             Pause
+        }
         "0" {
             Write-Host "`nExit..." -ForegroundColor Gray
             exit
@@ -33,4 +34,5 @@ do {
         }
     }
 } while ($choice -ne "0")
+
 
