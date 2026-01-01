@@ -11,7 +11,7 @@ function Show-Menu {
 
 do {
     Show-Menu
-    $choice = Read-Host "`nEnter the action number (0-1)"
+    $choice = Read-Host "`nEnter the action number (0-2)"
 
     switch ($choice) {
         "1" {
@@ -33,3 +33,4 @@ do {
         }
     }
 } while ($choice -ne "0")
+
