@@ -5,7 +5,7 @@ A collection of PowerShell scripts for automating tasks on a PC.
 ## 📁 Structure
 |      File     | 
 | ------------- | 
-| Content Cell  |
+| [Clean-Menu.ps1](https://github.com/S1mvolxD/PowerShell-Scripts/blob/main/System/Clean-Menu.ps1)  |
 | Content Cell  |
 ## 🚀 How to use
 
