@@ -53,6 +53,8 @@ irm https://raw.githubusercontent.com/S1mvolxD/Windows-Temp-Cleaner/refs/heads/m
 > [!WARNING]
 > Urgent info that needs immediate user attention to avoid problems.
 
+# 📊 Script Comparison
+```mermaid
 graph TD
     A[Выбор скрипта] --> B{Права администратора?}
     B -->|Да| C[Clear-AllTemp.ps1<br/>с меню]
@@ -68,14 +70,6 @@ graph TD
     F --> J[⚠️ Перезагрузка<br/>рекомендуется]
     G --> K[Готово!]
     I --> K
-Here is a simple flow chart:
-
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
 ```
     
 # 📞 Support
