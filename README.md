@@ -18,7 +18,6 @@ A set of standalone PowerShell scripts for safely cleaning temporary files in Wi
 | [Clean-Menu.ps1](https://github.com/S1mvolxD/PowerShell-Scripts/blob/main/System/Clean-Menu.ps1) | Script with a menu | ✅/❌ | ⭐⭐⭐⭐|
 
 # 🚀 Quick start
-📥 Installation
 ```ps1
 irm https://raw.githubusercontent.com/S1mvolxD/PowerShell-Scripts/refs/heads/main/System/Clean-Menu.ps1 | iex
 ```
