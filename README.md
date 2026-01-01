@@ -97,10 +97,10 @@ irm https://raw.githubusercontent.com/S1mvolxD/Windows-Temp-Cleaner/refs/heads/m
 • Saves a backup copy of important files
 ```
 
-</details>
-
 > [!NOTE]
 > Creates a backup in %TEMP%\WindowsTempBackup.
+
+</details>
 
 # 📊 Script Comparison
 ```mermaid
