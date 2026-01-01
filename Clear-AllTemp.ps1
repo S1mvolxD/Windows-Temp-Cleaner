@@ -1,5 +1,5 @@
 # Clear-AllTemp.ps1 (v1.8)
-# Start PowerShell.exe: "irm https://raw.githubusercontent.com/S1mvolxD/Windows-Temp-Cleaner/refs/heads/main/System/Clear-AllTemp.ps1 | iex"
+# Start PowerShell.exe: "irm https://raw.githubusercontent.com/S1mvolxD/Windows-Temp-Cleaner/refs/heads/main/Clear-AllTemp.ps1 | iex"
 function Show-Menu {
     Clear-Host
     Write-Host "=== Cleaning management menu. ===`n" -ForegroundColor Cyan
@@ -40,3 +40,4 @@ do {
         }
     }
 } while ($choice -ne "0")
+
