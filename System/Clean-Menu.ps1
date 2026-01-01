@@ -5,28 +5,31 @@ if (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
     exit
 }
 
-Clear-Host
-Write-Host "======== Cleaning management menu. ========" -ForegroundColor Cyan
-Write-Host "1. Clear the user's temporary files"
-Write-Host "0. Exit"
-Write-Host "===========================================" -ForegroundColor Cyan
-
-$choice = Read-Host "Select an option (0-1): "
-
-switch ($choice) {
-    "0" {
-        Write-Host "Exit..." -ForegroundColor Red
-        exit
-    }
-    "1" {
-        Write-Host "`nStarting the cleaning of the user's temporary files..." -ForegroundColor Green
-        irm https://raw.githubusercontent.com/S1mvolxD/PowerShell-Scripts/refs/heads/main/System/Clear-UserTemp.ps1 | iex
-        Pause
-    }
-    Default {
-        Write-Host "Wrong choice!" -ForegroundColor Red
-        Start-Sleep -Seconds 1
-    }
+function Show-Menu {
+    Clear-Host
+    Write-Host "=== Cleaning management menu. ===`n" -ForegroundColor Cyan
+    Write-Host "  1. Clear the user's temporary files" -ForegroundColor Gray
+    Write-Host "  0. Exit" -ForegroundColor Red
+    Write-Host "========================================" -ForegroundColor Cyan
 }
 
-
+do {
+    Show-Menu
+    $choice = Read-Host "`nEnter the action number (0-1)"
+    
+    switch ($choice) {
+        "1" {
+            Write-Host "`nStarting the cleaning of the user's temporary files..." -ForegroundColor Green
+            irm https://raw.githubusercontent.com/S1mvolxD/PowerShell-Scripts/refs/heads/main/System/Clear-UserTemp.ps1 | iex
+            Pause
+        }      
+        "0" {
+            Write-Host "`nExit..." -ForegroundColor Gray
+            exit
+        }
+        default {
+            Write-Host "`nIncorrect choice! Try again." -ForegroundColor Red
+            Start-Sleep -Seconds 2
+        }
+    }
+} while ($choice -ne "0")
