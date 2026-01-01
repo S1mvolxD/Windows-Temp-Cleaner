@@ -24,7 +24,7 @@ A set of standalone PowerShell scripts for safely cleaning temporary files in Wi
 
 # 🚀 Quick start
 ```ps1
-irm https://raw.githubusercontent.com/S1mvolxD/Windows-Temp-Cleaner/refs/heads/main/System/Clean-Menu.ps1 | iex
+irm https://raw.githubusercontent.com/S1mvolxD/Windows-Temp-Cleaner/refs/heads/main/Clean-Menu.ps1 | iex
 ```
 
 # 🔧 Detailed description of the scripts
