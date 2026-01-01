@@ -34,4 +34,17 @@ irm https://raw.githubusercontent.com/S1mvolxD/PowerShell-Scripts/refs/heads/mai
 • Recent documents
 ```
 
+<summary>2. Clear-SystemTemp.ps1 - Cleaning system temporary files</summary>
+
+## What cleanses:
+```ps1
+• C:\Windows\Temp
+• System Temp profiles
+• CBS logs
+• Update files
+• Installer cache
+```
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
 </details>
