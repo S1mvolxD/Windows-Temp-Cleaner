@@ -1,10 +1,5 @@
 # Quick-Clean.ps1 (v1) - A very basic option.
 # Start PowerShell.exe: "irm https://raw.githubusercontent.com/S1mvolxD/PowerShell-Scripts/refs/heads/main/System/Clean-Menu.ps1 | iex"
-if (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) { # Automatic restart on behalf of the administrator
-    Start-Process PowerShell -Verb RunAs -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" # We run ourselves as an administrator
-    exit
-}
-
 function Show-Menu {
     Clear-Host
     Write-Host "=== Cleaning management menu. ===`n" -ForegroundColor Cyan
@@ -33,3 +28,4 @@ do {
         }
     }
 } while ($choice -ne "0")
+
