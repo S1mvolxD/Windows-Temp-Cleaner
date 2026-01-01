@@ -68,6 +68,15 @@ graph TD
     F --> J[⚠️ Перезагрузка<br/>рекомендуется]
     G --> K[Готово!]
     I --> K
+Here is a simple flow chart:
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
     
 # 📞 Support
 Did you find a bug? Do you have any suggestions? Create an Issue
