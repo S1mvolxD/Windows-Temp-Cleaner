@@ -48,7 +48,7 @@ irm https://raw.githubusercontent.com/S1mvolxD/PowerShell-Scripts/refs/heads/mai
 • Installer cache
 ```
 
+</details>
+
 > [!WARNING]
 > Urgent info that needs immediate user attention to avoid problems.
-
-</details>
