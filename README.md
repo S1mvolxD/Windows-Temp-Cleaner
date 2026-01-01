@@ -1,19 +1,2 @@
-# PowerShell Scripts Repository
-
-A collection of PowerShell scripts for automating tasks on a PC.
-
-## 📁 Structure
-|      File     |  Start        |
-| ------------- | ------------- |
-| [Clean-Menu.ps1](https://github.com/S1mvolxD/PowerShell-Scripts/blob/main/System/Clean-Menu.ps1) | ```irm https://raw.githubusercontent.com/S1mvolxD/PowerShell-Scripts/refs/heads/main/System/Clean-Menu.ps1 | iex``` | 
-| Content Cell  | s |
-
-## 🚀 How to use
-
-1. Run PowerShell as an administrator
-2. Run: `Set-ExecutionPolicy RemoteSigned`
-3. Run the required script
-
-## ⚠️ Safety
-
-```Always check the scripts before launching!```
+# 🧹 Windows Temp Cleaner - A set of PowerShell scripts for cleaning temporary files
+https://img.shields.io/badge/PowerShell-5.1+-blue.svg https://img.shields.io/badge/Windows-10%252F11%252FServer-success.svg https://img.shields.io/badge/License-MIT-green.svg https://img.shields.io/badge/Version-2.0.0-orange.svg
