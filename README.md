@@ -50,6 +50,17 @@ irm https://raw.githubusercontent.com/S1mvolxD/Windows-Temp-Cleaner/refs/heads/m
 
 </details>
 
+<details>
+
+<summary>3. Clear-RecycleBin.ps1 - Cleaning the Recycle Bin</summary>
+
+## What cleanses:
+```ps1
+• Completely cleans the trash
+• Shows the size of the vacated space
+```
+
+</details>
 > [!WARNING]
 > Urgent info that needs immediate user attention to avoid problems.
 
