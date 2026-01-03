@@ -7,9 +7,9 @@
 ![Version](https://img.shields.io/badge/Version-2.0.0-orange)
 ![Maintained](https://img.shields.io/badge/Maintained-Yes-success)
 
-[![GitHub release](https://img.shields.io/github/v/release/ваш-юзернейм/ваш-репозиторий)](https://github.com/ваш-юзернейм/ваш-репозиторий/releases)
-[![GitHub issues](https://img.shields.io/github/issues/ваш-юзернейм/ваш-репозиторий)](https://github.com/ваш-юзернейм/ваш-репозиторий/issues)
-[![GitHub last commit](https://img.shields.io/github/last-commit/ваш-юзернейм/ваш-репозиторий)](https://github.com/ваш-юзернейм/ваш-репозиторий/commits)
+[![GitHub release](https://img.shields.io/github/v/release/S1mvolxD/ваш-репозиторий)](https://github.com/S1mvolxD/ваш-репозиторий/releases)
+[![GitHub issues](https://img.shields.io/github/issues/S1mvolxD/ваш-репозиторий)](https://github.com/S1mvolxD/ваш-репозиторий/issues)
+[![GitHub last commit](https://img.shields.io/github/last-commit/S1mvolxD/ваш-репозиторий)](https://github.com/S1mvolxD/ваш-репозиторий/commits)
 
 A set of standalone PowerShell scripts for safely cleaning temporary files in Windows. Each script performs a specific task.
 
